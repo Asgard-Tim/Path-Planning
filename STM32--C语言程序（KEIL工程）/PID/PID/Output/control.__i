@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\HAREWARE\Inc -I..\CONTROL -I..\MPU6050\DMP -I..\MPU6050\filter -I..\MPU6050\IIC -I..\MPU6050\MPU6050 
+-I E:\Keil\ARM\RV31\INC 
+-I E:\Keil\ARM\CMSIS\Include 
+-DUSE_HAL_DRIVER -DSTM32F103xE -o "..\Output\control.o" --omf_browse "..\Output\control.crf" --depend "..\Output\control.d" "..\CONTROL\control.c"

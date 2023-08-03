@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE -I..\HARDWARE 
+-I E:\Keil\ARM\RV31\INC 
+-I E:\Keil\ARM\CMSIS\Include 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_iwdg.o" --omf_browse "..\OBJ\stm32f10x_iwdg.crf" --depend "..\OBJ\stm32f10x_iwdg.d" "..\STM32F10x_FWLib\src\stm32f10x_iwdg.c"

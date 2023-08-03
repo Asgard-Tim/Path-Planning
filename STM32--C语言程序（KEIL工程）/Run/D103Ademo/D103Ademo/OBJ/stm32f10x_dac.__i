@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HAREWER\MOTO -I..\HAREWER\PWM -I..\HAREWER\GPIO -I..\HAREWER\ADC -I..\HAREWER\ENCODER 
+-I E:\Keil\ARM\RV31\INC 
+-I E:\Keil\ARM\CMSIS\Include 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_dac.o" --omf_browse "..\OBJ\stm32f10x_dac.crf" --depend "..\OBJ\stm32f10x_dac.d" "..\STM32F10x_FWLIB\src\stm32f10x_dac.c"
